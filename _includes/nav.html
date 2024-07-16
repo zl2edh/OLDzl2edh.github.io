@@ -1,4 +1,25 @@
 <nav>
+	<!--<img src="/assets/images/favicon.png" alt="big capital Z"></img>!-->
+	<h1>ZL2EDH</h1>
+    <!--<a href=""><img src="/assets/images/icons8-instagram.svg" alt="Instagram" class="social-icons"></a>
+    <a href="https://www.youtube.com/@pilotboi69"><img src="/assets/images/icons8-youtube.svg" alt="Youtube" class="social-icons"></a>
+    <a href="https://www.twitter.com/@zl2edh"><img src="/assets/images/icons8-twitter.svg" alt="Twitter" class="social-icons"></a>
+    <a href="https://t.me/thepilotboi"><img src="/assets/images/icons8-telegram-48.svg" alt="Telegram" class="social-icons"></a>!-->
+    <ul class="social-links">
+        <li>
+          <a href="https://www.instagram.com/linuxguy719" class="instagram"><i class="fi fi-brands-instagram"></i></a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com/@zl2edh" class="twitter"><i class="fi fi-brands-twitter"></i></a>
+        </li>
+        <li>
+          <a href="https://t.me/thepilotboi" class="telegram"><i class="fi fi-brands-telegram"></i></a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/@pilotboi69" class="youtube"><i class="fi fi-brands-youtube"></i></a>
+        </li>
+      </ul>
+	
 	{% for item in site.data.navigation %}
 	<a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>
 		{{ item.name }}
