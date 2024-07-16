@@ -2,8 +2,8 @@
 
 source "https://rubygems.org"
 
+#git_source(:github) {|zl2edh.github.io| "https://github.com/zl2edh/zl2edh.github.io" }
 # gem "rails"
-
 gem "jekyll", "~> 4.3"
 
 # Jekyll Plugins
