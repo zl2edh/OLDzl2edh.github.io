@@ -288,7 +288,7 @@ header > nav ul,
 header > nav ol {
   align-content: space-around;
   align-items: center;
-  display: flex;
+  display: inline;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
