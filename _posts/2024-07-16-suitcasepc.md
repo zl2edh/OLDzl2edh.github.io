@@ -5,9 +5,6 @@ title: Off Grid Computer Ideas
 summary: Some ideas for a portable computer/radio setup for emcomms or grid down situations
 link: /suitcasepc/
 ---
-# Cool thing
-yo
-
 ## Possible names
 - OGB1
 - the football

@@ -1,0 +1,6 @@
+{
+    "frontMatter.framework.id": "jekyll",
+    "frontMatter.content.publicFolder": "assets",
+    "frontMatter.preview.host": "http://localhost:4000",
+    "liquid.format.enable": true
+}
