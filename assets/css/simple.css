@@ -1,3 +1,31 @@
+/* social links on index.html */
+.social-links li {
+  margin-left: 0.6rem;
+}
+li .social-links li .linkedin {
+  color: #0072b1;
+}
+li .social-links li .twitter {
+  color: #00acee;
+}
+li .social-links li .facebook {
+  color: #4267b2;
+}
+li .social-links li .youtube {
+  color: #ff0000;
+}
+
+li .social-links li a {
+  text-decoration: none;
+  padding: 4px 8px;
+  border-radius: 50%;
+}
+
+li .social-links li a:hover {
+  background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
 /* Global variables. */
 :root,
 ::backdrop {

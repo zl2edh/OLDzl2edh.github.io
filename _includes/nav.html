@@ -1,21 +1,6 @@
 <nav>
 	<!--<img src="/assets/images/favicon.png" alt="big capital Z"></img>!-->
-	<h1 style="display: inline;">ZL2EDH</h1>
-    <ul class="social-links">
-        <li>
-          <a href="https://www.instagram.com/linuxguy719" class="instagram"><i class="fi fi-brands-instagram"></i></a>
-        </li>
-        <li>
-          <a href="https://www.twitter.com/@zl2edh" class="twitter"><i class="fi fi-brands-twitter"></i></a>
-        </li>
-        <li>
-          <a href="https://t.me/thepilotboi" class="telegram"><i class="fi fi-brands-telegram"></i></a>
-        </li>
-        <li>
-          <a href="https://www.youtube.com/@pilotboi69" class="youtube"><i class="fi fi-brands-youtube"></i></a>
-        </li>
-      </ul>
-	
+	<h1 style="display: inline;">ZL2EDH</h1>	
 	{% for item in site.data.navigation %}
 	<a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>
 		{{ item.name }}
