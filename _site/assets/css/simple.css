@@ -1,6 +1,7 @@
 /* social links on index.html */
 .social-links li {
   margin-left: 0.6rem;
+  display: inline;
 }
 li .social-links li .linkedin {
   color: #0072b1;
